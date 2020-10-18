@@ -4,7 +4,7 @@ build:
   local:
     push: false
   artifacts:
-    - image: stephengrider/multi-client
+    - image: mradman/multi-client
       context: client
       docker:
         dockerfile: Dockerfile
